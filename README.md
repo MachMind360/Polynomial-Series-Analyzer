@@ -126,20 +126,19 @@ from nth_term_of_series import nth_term_of_series
 from sum_of_series import sum_of_series
 
 series = [1, 4, 9, 16, 25]
-nth
 
 nth_term = find_nth_term(series)
 sum_formula = find_sum_formula(series)
 
-print("Nth term equation:", nth_term)
-print("Sum formula:", sum_formula)
+print(nth_term)
+print(sum_formula)
 ```
 
 Output
 
 ```
-Nth term equation: n^2
-Sum formula: n(n+1)(2n+1)/6
+General equation of nth term of series is: n^2
+General equation of sum of series is: n(n+1)(2n+1)/6
 ```
 
 ---
@@ -150,11 +149,8 @@ Sum formula: n(n+1)(2n+1)/6
 polynomial-series-analyzer
 │
 ├── src
-│   ├── nth_term_solver.py
-│   └── sum_formula_solver.py
-│
-├── examples
-│   └── example_series.py
+│   ├── nth_term_of_series.py
+│   └── sum_of_series.py
 │
 ├── README.md
 ├── requirements.txt
@@ -177,7 +173,6 @@ polynomial-series-analyzer
 ## Future Improvements
 
 - Support for **non-polynomial sequences**
-- Symbolic output using **SymPy**
 - Web-based interface
 - Visualization of finite difference tables
 - API for automated series analysis
