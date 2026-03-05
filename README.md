@@ -127,8 +127,8 @@ from sum_of_series import sum_of_series
 
 series = [1, 4, 9, 16, 25]
 
-nth_term = find_nth_term(series)
-sum_formula = find_sum_formula(series)
+nth_term = nth_term_of_series(series)
+sum_formula = sum_of_series(series)
 
 print(nth_term)
 print(sum_formula)
